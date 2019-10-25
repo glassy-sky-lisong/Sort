@@ -11,6 +11,4 @@ public interface Sort {
      void swap(int[] array ,int start ,int end);
     //输出
      void print(int [] array);
-     //选择排序
-    void select(int[] array);
 }
