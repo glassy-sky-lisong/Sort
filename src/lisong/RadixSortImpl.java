@@ -56,3 +56,7 @@ public class RadixSortImpl implements RadixSort {
         shellSort.print(array);
     }
 }
+// 3  1  2 5  4       左 比标准大的停止 右 比标准小的停止 当左右指针相遇则停止
+// 9 7 10 8           在次循环 选取左一作为标准数 直到所有的元素排完
+// 9 7 8 10  8 7 9 10
+//7 8 9 10
